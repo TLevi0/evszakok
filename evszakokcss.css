@@ -1,11 +1,12 @@
 body {
     background-color: rgb(255, 255, 255);
+    background-image: url(háttér.jpg);
 }
 
 .content {
     background-color: rgb(206, 255, 255);
     border: 2px solid rgb(255, 204, 204);
-    width: 1300px;
+    width: 1200px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -14,11 +15,9 @@ body {
 .box1 {
     border-radius: 5%;
     background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 200px;
     float: left;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
     transition: 1s;
 }
 
@@ -31,11 +30,9 @@ body {
 .box2 {
     border-radius: 5%;
     background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 200px;
     float: right;
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
     transition: 1s;
 }
 .box2:hover {
@@ -46,11 +43,9 @@ body {
 .box3 {
     border-radius: 5%;
     background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 200px;
     float: left;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
     transition: 1s;
 }
 
@@ -63,11 +58,9 @@ body {
 .box4 {
     border-radius: 5%;
     background-color: rgb(255, 255, 255);
-    width: 200px;
-    height: 200px;
     float: right;
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
     transition: 1s;
 }
 .box4:hover {
@@ -76,6 +69,10 @@ body {
     color: white;
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+   
+}
+p
+{
+    text-align: center;
 }
